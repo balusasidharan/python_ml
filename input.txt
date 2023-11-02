@@ -1,0 +1,31 @@
+
+Tools
+From Wikipedia, the free encyclopedia
+Transfer learning (TL) is a technique in machine learning (ML) in which knowledge learned from a task is re-used in order to boost performance on a related task.[1] For example, for image classification, knowledge gained while learning to recognize cars could be applied when trying to recognize trucks. This topic is related to the psychological literature on transfer of learning, although practical ties between the two fields are limited. Reusing/transferring information from previously learned tasks to new tasks has the potential to significantly improve learning efficiency.[2]
+
+History
+
+This section may lend undue weight to certain ideas, incidents, or controversies. Please help to create a more balanced presentation. Discuss and resolve this issue before removing this message. (June 2019)
+In 1976, Bozinovski and Fulgosi published a paper addressing transfer learning in neural network training.[3][4] The paper gives a mathematical and geometrical model of the topic. In 1981, a report considered the application of transfer learning to a dataset of images representing letters of computer terminals, experimentally demonstrating positive and negative transfer learning.[5]
+
+In 1993, Pratt formulated the discriminability-based transfer (DBT) algorithm.[6]
+
+In 1997, Pratt and Thrun guest-edited a special issue of Machine Learning devoted to transfer learning,[7] and by 1998, the field had advanced to include multi-task learning,[8] along with more formal theoretical foundations.[9] Learning to Learn,[10] edited by Thrun and Pratt, is a 1998 review of the subject.
+
+Transfer learning has been applied in cognitive science. Pratt guest-edited an issue of Connection Science on reuse of neural networks through transfer in 1996.[11]
+
+Ng said in his NIPS 2016 tutorial[12][13][14] that TL would become the next driver of machine learning commercial success after supervised learning.
+
+In the 2020 paper, "Rethinking Pre-Training and self-training",[15] Zoph et al. reported that pre-training can hurt accuracy, and advocate self-training instead.
+
+Applications
+Algorithms are available for transfer learning in Markov logic networks[16] and Bayesian networks.[17] Transfer learning has been applied to cancer subtype discovery,[18] building utilization,[19][20] general game playing,[21] text classification,[22][23] digit recognition,[24] medical imaging and spam filtering.[25]
+
+In 2020 it was discovered that, due to their similar physical natures, transfer learning is possible between electromyographic (EMG) signals from the muscles and classifying the behaviors of electroencephalographic (EEG) brainwaves, from the gesture recognition domain to the mental state recognition domain. It was noted that this relationship worked in both directions, showing that electroencephalographic can likewise be used to classify EMG.[26] The experiments noted that the accuracy of neural networks and convolutional neural networks were improved[27] through transfer learning both prior to any learning (compared to standard random weight distribution) and at the end of the learning process (asymptote). That is, results are improved by exposure to another domain. Moreover, the end-user of a pre-trained model can change the structure of fully-connected layers to improve performance.[28]
+
+Software
+Several compilations of transfer learning and domain adaptation algorithms have been implemented:
+
+ADAPT[29] (Python)
+TLlib [30] (Python)
+Domain-Adaptation-Toolbox [31] (Matlab)
